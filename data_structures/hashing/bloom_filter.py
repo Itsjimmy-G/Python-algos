@@ -44,7 +44,8 @@ False
 
 but sometimes there are false positives:
 >>> "Ratatouille" in bloom
-True
+True 
+
 >>> bloom.format_hash("Ratatouille")
 '01100000'
 
